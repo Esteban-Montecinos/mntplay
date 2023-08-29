@@ -4,7 +4,7 @@ import { persist } from "zustand/middleware";
 export const usePlayStore = create(persist((set) => ({
   inputHtml: `<section class="flex flex-col items-center justify-center w-full h-screen px-2 mx-auto bg-neutral-950">
       <div class="flex flex-col w-full max-w-lg p-4 text-center text-white rounded-lg gap-y-10 bg-neutral-900">
-        <h2 class="mb-4 text-4xl font-semibold tracking-tight">
+        <h2 class="mb-4 text-4xl font-semibold tracking-tight animate-bounce">
           Bienvenido a *MNTplay
         </h2>
         <p class="text-sm text-muted-foreground">
