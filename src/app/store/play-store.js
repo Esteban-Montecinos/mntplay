@@ -19,6 +19,8 @@ export const usePlayStore = create(persist((set) => ({
           }
         }
       }`,
+  url: "",
   setInputHtml: (inputHtml) => set({ inputHtml }),
   setInputConfig: (inputConfig) => set({ inputConfig }),
+  setUrl: (url) => set({ url })
 }),{name: "play-store"}));
